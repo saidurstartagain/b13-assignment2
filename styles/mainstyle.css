@@ -8,6 +8,18 @@
     display: flex;
 }
 
+.section-title {
+    font-size: 3.75rem;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.section-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
 /* Share styles End */
 
 /* Navbar style start  */
@@ -33,13 +45,21 @@
 .navbar-links {
 
     gap: 32px;
+
+    align-items: center;
 }
 
 .navbar-item {
 
     list-style: none;
+    padding: 15px;
+    border-radius: 8px;
 
 
+}
+
+.navbar-item:hover {
+    background-color: #fb09b2ad;
 }
 
 .navbar-link {
@@ -73,6 +93,115 @@
 
 /* Navbar style End  */
 
+/* Hero section styles start */
+.hero-container {
+    max-width: 1600px;
+    height: 760px;
+    background-image: url(../assets/hero-bg.png);
+    margin: 101px auto;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-content {
+    width: 550px;
+    height: 558px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-left: 520px;
+
+
+
+}
+
+.hero-image-section-min {
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/hero-circle.png);
+    background-repeat: no-repeat;
+
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+
+}
+
+.heo-image {
+
+    justify-content: center;
+    width: 116px;
+    height: 175px;
+
+    /* padding: 15px; */
+    margin: 0px 0px 50px 130px;
+
+}
+
+.hero-image-section-min .hero-img-new {
+
+    margin: 0px 0px 270px 45px;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+
+.heo-image {
+    margin-top: 70px;
+    width: 100%;
+
+}
+
+.heo-image img {
+    width: 100%;
+}
+
+.techwave-section {
+
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.hero-buttn-group {
+    margin-top: 20px;
+}
+
+.btn-hero-spotify {
+    max-width: 250px;
+    height: 44px;
+    cursor: pointer;
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+
+    border-radius: 20px;
+
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+}
+
+.btn-hero-sub {
+    color: #00FF88;
+    max-width: 250px;
+    height: 44px;
+    cursor: pointer;
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid #00FF88;
+    border-radius: 20px;
+    background-color: #1a0b2ee2;
+}
+
+/* Hero section styles End */
+
 
 @media screen and (min-width: 576px) {
     .van-mobile-menu {
@@ -93,7 +222,9 @@
 
     }
 
-    .navbar {}
+    .hero-content {
+        margin-left: -60px;
+    }
 
 
 }
