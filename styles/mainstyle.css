@@ -20,6 +20,12 @@
     color: #ffffff;
 }
 
+.feature-titles {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
 /* Share styles End */
 
 /* Navbar style start  */
@@ -226,6 +232,7 @@
     height: 94px;
     margin: 0 auto;
     margin-top: 50px;
+    gap: 80px;
 
 
 }
@@ -238,6 +245,106 @@
 }
 
 /* About podcast section styles   end*/
+
+
+/* Feature section style (Community, mobile) start */
+
+.feature-container {
+    background-color: #230E3D;
+}
+
+.feature-title {
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.feature-elements {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    gap: 10px;
+    height: 780px;
+
+
+
+
+}
+
+.feature-element1 {
+    grid-row: span 2;
+    grid-column: span 1;
+    height: 480px;
+    /* padding: 130px 20px 5px 10px; */
+    padding-left: 30px;
+    background-color: #351165;
+    border-radius: 15px;
+}
+
+.feature-element-img {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.feature-element-img2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.feature-element2 {
+    grid-row: span 1;
+    grid-column: span 2;
+
+    height: 50%;
+    padding-left: 30px;
+    background-color: #351165;
+    border-radius: 15px;
+}
+
+.feature-element3 {
+    grid-row: span 1;
+    grid-column: span 2;
+
+    height: 50%;
+    margin-top: -170PX;
+    padding-left: 30px;
+    background-color: #351165;
+    border-radius: 15px;
+
+}
+
+.feature-element4 {
+    grid-row: span 1;
+    grid-column: span 2;
+
+    margin-top: -325px;
+    height: 50%;
+    padding-left: 30px;
+    background-color: #351165;
+    border-radius: 15px;
+}
+
+.feature-element5 {
+
+
+    margin-top: -325px;
+    height: 50%;
+    padding-left: 30px;
+    background-color: #351165;
+    border-radius: 15px;
+}
+
+.feature-titles {
+    margin-bottom: 20px;
+}
+
+
+/* Feature section style (Community, mobile) End */
 
 @media screen and (min-width: 576px) {
     .van-mobile-menu {
@@ -266,6 +373,10 @@
         grid-template-columns: repeat(2, 1fr);
         height: 300px;
         margin-top: 160px;
+    }
+
+    .feature-elements {
+        grid-template-columns: 1fr;
     }
 
 }
