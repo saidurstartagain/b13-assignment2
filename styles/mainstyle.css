@@ -108,7 +108,6 @@
 .hero-content {
     width: 550px;
     height: 558px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-left: 520px;
 
@@ -202,6 +201,43 @@
 
 /* Hero section styles End */
 
+/* About podcast section styles  start */
+.podcast-container {
+    background-color: #1A0B2E;
+    margin-top: -105px;
+}
+
+.about-podcast {
+    text-align: center;
+    max-width: 1200px;
+    height: 222px;
+    margin: 0 auto;
+}
+
+.section-description2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.records-average-monthly {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    height: 94px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+
+}
+
+.record-title {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #00FF88;
+    margin-bottom: 10px;
+}
+
+/* About podcast section styles   end*/
 
 @media screen and (min-width: 576px) {
     .van-mobile-menu {
@@ -226,5 +262,10 @@
         margin-left: -60px;
     }
 
+    .records-average-monthly {
+        grid-template-columns: repeat(2, 1fr);
+        height: 300px;
+        margin-top: 160px;
+    }
 
 }
