@@ -69,12 +69,14 @@
     list-style: none;
     padding: 15px;
     border-radius: 8px;
+    transition: width 5s linear 1s, background-color 5s linear 1s;
 
 
 }
 
 .navbar-item:hover {
     background-color: #fb09b2ad;
+    width: 60px;
 }
 
 .navbar-link {
@@ -332,7 +334,7 @@
     grid-column: span 2;
 
     margin-top: -325px;
-    height: 50%;
+    height: 60%;
     padding-left: 30px;
     background-color: #351165;
     border-radius: 15px;
@@ -342,7 +344,7 @@
 
 
     margin-top: -325px;
-    height: 50%;
+    height: 60%;
     padding-left: 30px;
     background-color: #351165;
     border-radius: 15px;
