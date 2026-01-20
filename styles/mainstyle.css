@@ -405,6 +405,49 @@
 
 /* feature episode and meet host end */
 
+/* meet the host start */
+.host-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.meet-thehost-container {
+    max-width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.meet-the-host-title {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.host-container {
+    background-color: #3c0a7da8;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.host-content {
+    margin-left: 20px;
+}
+
+.host-social-container {
+    margin-top: 20px;
+    gap: 10px;
+}
+
+
+
+/* meet the host End */
+
 @media screen and (min-width: 576px) {
     .van-mobile-menu {
         display: none;
@@ -439,7 +482,8 @@
         grid-template-columns: 1fr;
     }
 
-    .feature-episodes-cards {
+    .feature-episodes-cards,
+    .host-container {
         flex-direction: column;
     }
 
