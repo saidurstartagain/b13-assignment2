@@ -75,8 +75,9 @@
 }
 
 .navbar-item:hover {
-    background-color: #fb09b2ad;
+    background-color: sandybrown;
     width: 60px;
+    transform: scale(2);
 }
 
 .navbar-link {
