@@ -69,7 +69,7 @@
     list-style: none;
     padding: 15px;
     border-radius: 8px;
-    transition: width 5s linear 1s, background-color 5s linear 1s;
+    transition: width 5s linear 1s, background-color linear 1s;
 
 
 }
@@ -78,6 +78,7 @@
     background-color: sandybrown;
     width: 60px;
     transform: scale(2);
+    transform: rotate(20deg);
 }
 
 .navbar-link {
@@ -154,6 +155,10 @@
     /* padding: 15px; */
     margin: 0px 0px 50px 130px;
 
+}
+
+.heo-image:hover {
+    transform: rotate(90deg);
 }
 
 .hero-image-section-min .hero-img-new {
