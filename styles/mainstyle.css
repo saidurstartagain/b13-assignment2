@@ -346,6 +346,65 @@
 
 /* Feature section style (Community, mobile) End */
 
+/* feature episode and meet host start */
+
+.feature-meet-host {
+    background-color: #1A0B2E;
+}
+
+.feature-episodes {
+    max-width: 1250px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.feature-episod-meet-title {
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 30px;
+}
+
+.feature-episodes-cards {
+    gap: 25px;
+}
+
+.feature-episodes-card {
+    background-color: #250D44;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.feature-episode-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+
+.watch-time-container {
+    margin-top: 20px;
+}
+
+.watch-time {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00FF88;
+    margin-left: 5px;
+
+}
+
+.ireame {
+    border: none;
+    border-radius: 15px;
+}
+
+/* feature episode and meet host end */
+
 @media screen and (min-width: 576px) {
     .van-mobile-menu {
         display: none;
@@ -354,6 +413,7 @@
 
 /* Mobile, responsive start */
 @media screen and (max-width: 576px) {
+
 
     .navbar-links,
     .btn-primary-nav {
@@ -377,6 +437,10 @@
 
     .feature-elements {
         grid-template-columns: 1fr;
+    }
+
+    .feature-episodes-cards {
+        flex-direction: column;
     }
 
 }
