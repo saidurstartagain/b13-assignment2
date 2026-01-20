@@ -1,6 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+
+}
+
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
 }
 
 /* Share styles start */
@@ -79,7 +88,7 @@
     max-width: 135px;
     height: 44px;
     cursor: pointer;
-    padding: 12px 30px;
+    padding: 12px 12px;
     font-size: 1rem;
     font-weight: 600;
     color: #ffffff;
@@ -354,7 +363,7 @@
 
 .feature-episodes {
     max-width: 1250px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
 }
 
@@ -415,7 +424,7 @@
 
 .meet-thehost-container {
     max-width: 1200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
 }
 
@@ -430,6 +439,7 @@
     padding: 10px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 
 
 
@@ -447,6 +457,47 @@
 
 
 /* meet the host End */
+
+/* footer section start */
+
+.footer-section {
+    background: url(../assets/footer-bg.png);
+    max-width: 1600px;
+    height: 412px;
+}
+
+.footer-centernt {
+    max-width: 1360px;
+    border: 1px solid #1A0B2E;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-image {
+    margin-top: 180px;
+    margin-bottom: 10px;
+}
+
+.footer-socials {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 700px;
+
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.footer-socials img {
+    margin-right: 10px;
+}
+
+/* footer section end */
 
 @media screen and (min-width: 576px) {
     .van-mobile-menu {
@@ -485,6 +536,10 @@
     .feature-episodes-cards,
     .host-container {
         flex-direction: column;
+    }
+
+    .footer-socials {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
